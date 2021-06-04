@@ -1,5 +1,5 @@
 {
-  "name": "@newspacebpo/rodrigo_curso",
+  "name": "clean-node-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "git-commit-msg-linter": "^3.1.0"
+  }
 }
