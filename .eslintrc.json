@@ -4,6 +4,12 @@
         "project": "./tsconfig.json"
     },
     "rules": {
-        "indent": "off"
+        "@typescript-eslint/indent": "off",
+        "space-before-blocks": "off",
+        "@typescript-eslint/strict-boolean-expressions": "off",
+        "@typescript-eslint/keyword-spacing": "off",
+        "@typescript-eslint/quotes": "off",
+        "eol-last": "off"
     }
 }
+
