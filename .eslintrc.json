@@ -10,7 +10,8 @@
         "@typescript-eslint/keyword-spacing": "off",
         "@typescript-eslint/quotes": "off",
         "eol-last": "off",
-        "@typescript-eslint/no-empty-interface": "off"
+        "@typescript-eslint/no-empty-interface": "off",
+        "@typescript-eslint/explicit-function-return-type": "off"
     }
 }
 
