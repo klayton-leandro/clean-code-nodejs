@@ -8,9 +8,11 @@ import { EmailValidator } from '../protocols/email-validate'
 
 export class SignUpController implements Controller {
     private readonly emailValidator: EmailValidator
+
     constructor (emailValidator: EmailValidator){
         this.emailValidator = emailValidator
     }
+
     handle (httpRequest: HttpRequest): any{
         const requiredFields = ['name', 'email', 'password', 'passwordConfirmation']
         for (const field of requiredFields){
