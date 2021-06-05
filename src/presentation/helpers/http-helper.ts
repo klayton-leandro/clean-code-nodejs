@@ -6,6 +6,12 @@ interface httpResponse {
     body: any
 }
 
+export const ok = (data: any): httpResponse => ({
+    statusCode: 200,
+    body: data
+})
+
+
 export const badRequest = (error: Error): httpResponse => ({
     statusCode: 400,
     body: error
