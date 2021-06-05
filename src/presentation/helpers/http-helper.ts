@@ -1,5 +1,5 @@
 
-import { ServerError } from '../erros/server-error'
+import { ServerError } from '../erros'
 
 interface httpResponse {
     statusCode: number
