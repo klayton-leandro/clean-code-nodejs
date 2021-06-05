@@ -183,7 +183,7 @@ describe('SingUp Controller', () => {
     })
 
     test('Should return 500 if AddAccount throws', async () => {
-        const { sut, addAccount} = makeSut()
+        const { sut, addAccount } = makeSut()
         jest.spyOn(addAccount, 'add').mockImplementationOnce(() => {
             return new Promise((resolve, reject) => reject(new Error()))
         })
