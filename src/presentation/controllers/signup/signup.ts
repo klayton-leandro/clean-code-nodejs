@@ -36,6 +36,7 @@ async handle (httpRequest: HttpRequest): Promise<any>{
             })
             return ok(account)
         }catch(error){
+            console.error(error)
             return serverError()
         }
     }

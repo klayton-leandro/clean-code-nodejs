@@ -11,7 +11,6 @@ export const ok = (data: any): httpResponse => ({
     body: data
 })
 
-
 export const badRequest = (error: Error): httpResponse => ({
     statusCode: 400,
     body: error
