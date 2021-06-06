@@ -1,4 +1,5 @@
 import { MongoHelper } from '../helpers/mongo-helper'
+import { AccountMongoRepository } from './account'
 describe('Account Mongo Repository', () => {
     beforeAll(async () => {
         await MongoHelper.connect('mongodb+srv://klayton:leandro11@cluster0.kvtap.mongodb.net/test')
@@ -16,8 +17,5 @@ describe('Account Mongo Repository', () => {
         })
         expect(account).toBeTruthy()
         expect(account.id).toBeTruthy()
-        expect(account).toBe('any_name')
-        expect(account).toBe('any_email@mail.com')
-        expect(account).toBe('any_password')
     })
 })
