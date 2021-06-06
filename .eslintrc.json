@@ -3,7 +3,10 @@
     "parserOptions": {
         "project": "./tsconfig.json"
     },
+
     "rules": {
+        "no-unused-vars": 0,
+        "indent": ["error", 4],
         "@typescript-eslint/indent": "off",
         "space-before-blocks": "off",
         "@typescript-eslint/strict-boolean-expressions": "off",
